@@ -9,7 +9,7 @@ export default function MainAppBar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static">
         <Toolbar>
-            <Box paddingY={1}>
+            <Box paddingY={1} paddingX={1}>
             <Logo fontSize={4} width='100px' height='auto' />
             </Box>
         </Toolbar>
