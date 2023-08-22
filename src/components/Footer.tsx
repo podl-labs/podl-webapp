@@ -26,7 +26,7 @@ export default function Footer() {
               <Twitter />
             </Link>
             <Link
-              href="https://twitter.com/podl_ai"
+              href="https://github.com/podl-labs"
               target="_blank"
               rel="noopener noreferrer"
               color="inherit"

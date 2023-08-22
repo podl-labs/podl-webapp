@@ -30,7 +30,7 @@ function App() {
             Twitter
           </Button>
           <Button
-            href="https://github.com/podl"
+            href="https://github.com/podl-labs"
             target="_blank"
             rel="noopener noreferrer"
             variant='outlined'
