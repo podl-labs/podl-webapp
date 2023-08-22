@@ -3,7 +3,7 @@ name: Deploy Vite App
 on:
   push:
     branches:
-      - main # Change this to your main branch name
+      - master # Change this to your main branch name
 
 jobs:
   deploy:
@@ -28,5 +28,5 @@ jobs:
         uses: peaceiris/actions-gh-pages@v3
         with:
           publish_dir: ./dist # Specify the directory where your Vite app is built
-          publish_branch: gh-pages # Change this to your target branch
+          publish_branch: master # Change this to your target branch
           github_token: ${{ secrets.GITHUB_TOKEN }}
