@@ -11,14 +11,15 @@ function App() {
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         minHeight: '100vh',
+        length: 'auto'
       }}
     >
     <Container maxWidth="lg">
       <Box textAlign="center">
         <Typography variant="h1" paddingTop={8}>Open and scalable MLOps</Typography>
-        <Typography variant="h5" paddingTop={5}>A game changing library to declare infrastructure and scale servers in Python. Run code in seconds without thinking about the cloud. Open source and Kubernetes native.</Typography>
+        <Typography variant="h5" paddingTop={5}>Declare infra and scale servers with Python. Run code in seconds without thinking about the cloud. Open source and Kubernetes native.</Typography>
 
-        <Box paddingTop={5} display='flex' justifyContent='center' gap={2}>
+        <Box paddingTop={5} paddingBottom={4} display='flex' justifyContent='center' gap={2}>
           <Button
             href="https://twitter.com/podl_ai"
             target="_blank"

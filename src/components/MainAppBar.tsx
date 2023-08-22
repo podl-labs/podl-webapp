@@ -10,7 +10,7 @@ export default function MainAppBar() {
       <AppBar position="static">
         <Toolbar>
             <Box paddingY={1} paddingX={1}>
-            <Logo fontSize={4} width='100px' height='auto' />
+            <Logo fontSize={4} width='100px' height='100%' />
             </Box>
         </Toolbar>
       </AppBar>

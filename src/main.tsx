@@ -9,6 +9,7 @@ import App from './App.tsx'
 import './index.css'
 import { ThemeProvider, createTheme } from '@mui/material/styles'
 import MainAppBar from './components/MainAppBar.tsx';
+import Footer from './components/Footer.tsx';
 
 const theme = createTheme({
   palette: {
@@ -22,6 +23,7 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
       <CssBaseline />
       <MainAppBar />
       <App />
+      <Footer />
     </ThemeProvider>
   </React.StrictMode>,
 )
